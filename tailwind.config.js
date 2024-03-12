@@ -6,6 +6,21 @@ export default {
     ],
     theme: {
       extend: {},
+      colors:{
+        'black':'#000000',
+        'grey':'#DFDFDF',
+        'white':'#ffffff',
+
+        //degradado
+
+        'uno':'#FFC593',
+        'dos': '#BC7198',
+        'tres':'#5A77FF'
+
     },
+
+    },
+    
+ 
     plugins: [],
   }

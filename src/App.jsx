@@ -1,12 +1,19 @@
 
+import { Routes } from 'react-router-dom'
 import './App.css'
+import Navbar from './Components/Navbar'
+import r from '../src/assets/shared/mobile/bg-beta.webp'
 
 function App() {
 
 
   return (
     <>
-     <h1 className='text-red-400'>hola</h1>
+    <Navbar/>
+    <img src={r} alt="r" />
+     <Routes>
+    
+     </Routes>
     </>
   )
 }
