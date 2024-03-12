@@ -1,8 +1,9 @@
 
-import { Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Navbar from './Components/Navbar'
-import r from '../src/assets/shared/mobile/bg-beta.webp'
+import Home from './Home'
+
 
 function App() {
 
@@ -10,9 +11,9 @@ function App() {
   return (
     <>
     <Navbar/>
-    <img src={r} alt="r" />
-     <Routes>
     
+     <Routes>
+        <Route path='/' element={<Home/>} />
      </Routes>
     </>
   )
