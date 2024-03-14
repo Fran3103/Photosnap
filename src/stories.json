@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "fecha": "April 16th 2020",
+      "titulo": "The Mountains",
+      "autor": "John Appleseed",
+      "img": [
+        "src/assets/stories/mobile/mountains.webp",
+        "src/assets/stories/desktop/mountains.webp"
+      ]
+    },
+    {
+      "id": 2,
+      "fecha": "April 14th 2020",
+      "titulo": "Sunset Cityscapes",
+      "autor": "Benjamin Cruz",
+      "img": [
+        "src/assets/stories/mobile/cityscapes.webp",
+        "src/assets/stories/desktop/cityscapes.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "fecha": "April 11th 2020",
+      "titulo": "18 Days Voyage",
+      "autor": "Alexei Borodin",
+      "img": [
+        "src/assets/stories/mobile/18-days-voyage.webp",
+        "src/assets/stories/desktop/18-days-voyage.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "fecha": "April 9th 2020",
+      "titulo": "Architecturals",
+      "autor": "Samantha Brooke",
+      "img": [
+        "src/assets/stories/mobile/architecturals.webp",
+        "src/assets/stories/desktop/architecturals.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "fecha": "April 7th 2020",
+      "titulo": "World Tour 2019",
+      "autor": "Timothy Wagner",
+      "img": [
+        "src/assets/stories/mobile/world-tour.webp",
+        "src/assets/stories/desktop/world-tour.webp"
+      ]
+    },
+    {
+      "id": 6,
+      "fecha": "April 3rd 2020",
+      "titulo": "Unforeseen Corners",
+      "autor": "William Malcolm",
+      "img": [
+        "src/assets/stories/mobile/unforeseen-corners.webp",
+        "src/assets/stories/desktop/unforeseen-corners.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "fecha": "March 29th 2020",
+      "titulo": "King on Africa: Part II",
+      "autor": "Tim Hillenburg",
+      "img": [
+        "src/assets/stories/mobile/king-on-africa.webp",
+        "src/assets/stories/desktop/king-on-africa.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "fecha": "March 21st 2020",
+      "titulo": "The Trip to Nowhere",
+      "autor": "Felicia Rourke",
+      "img": [
+        "src/assets/stories/mobile/trip-to-nowhere.webp",
+        "src/assets/stories/desktop/trip-to-nowhere.webp"
+      ]
+    },
+    {
+      "id": 9,
+      "fecha": "March 19th 2020",
+      "titulo": "Rage of The Sea",
+      "autor": "Mohammed Abdul",
+      "img": [
+        "src/assets/stories/mobile/rage-of-the-sea.webp",
+        "src/assets/stories/desktop/rage-of-the-sea.webp"
+      ]
+    },
+    {
+      "id": 10,
+      "fecha": "March 16th 2020",
+      "titulo": "Running Free",
+      "autor": "Michelle",
+      "img": [
+        "src/assets/stories/mobile/running-free.webp",
+        "src/assets/stories/desktop/running-free.webp"
+      ]
+    },
+    {
+      "id": 11,
+      "fecha": "March 11th 2020",
+      "titulo": "Behind the Waves",
+      "autor": "Lamarr Wilson",
+      "img": [
+        "src/assets/stories/mobile/behind-the-waves.webp",
+        "src/assets/stories/desktop/behind-the-waves.webp"
+      ]
+    },
+    {
+      "id": 12,
+      "fecha": "March 9th 2020",
+      "titulo": "Calm Waters",
+      "autor": "Samantha Brooke",
+      "img": [
+        "src/assets/stories/mobile/calm-waters.webp",
+        "src/assets/stories/desktop/calm-waters.webp"
+      ]
+    },
+    {
+      "id": 13,
+      "fecha": "March 5th 2020",
+      "titulo": "The Milky Way",
+      "autor": "Benjamin Cruz",
+      "img": [
+        "src/assets/stories/mobile/milky-way.webp",
+        "src/assets/stories/desktop/milky-way.webp"
+      ]
+    },
+    {
+      "id": 14,
+      "fecha": "March 4th 2020",
+      "titulo": "Night at The Dark Forest",
+      "autor": "Mohammed Abdul",
+      "img": [
+        "src/assets/stories/mobile/dark-forest.webp",
+        "src/assets/stories/desktop/dark-forest.webp"
+      ]
+    },
+    {
+      "id": 15,
+      "fecha": "March 1st 2020",
+      "titulo": "Somwarpet’s Beauty",
+      "autor": "Michelle",
+      "img": [
+        "src/assets/stories/mobile/somwarpet.webp",
+        "src/assets/stories/desktop/somwarpet.webp"
+      ]
+    },
+    {
+      "id": 16,
+      "fecha": "February 25th 2020",
+      "titulo": "Land of Dreams",
+      "autor": "William Malcolm",
+      "img": [
+        "src/assets/stories/mobile/land-of-dreams.webp",
+        "src/assets/stories/desktop/land-of-dreams.webp"
+      ]
+    }
+  ]
+  
