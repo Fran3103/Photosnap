@@ -33,7 +33,7 @@ const Stories = () => {
 
                 </div>
             </div>
-            <div className='md:grid grid-cols-2 lg:grid-cols-3   xl:grid-cols-4'>
+            <div className='md:grid grid-cols-2 lg:grid-cols-4'>
                     { stories.slice(1).map((stori) => (
 
                         <div key={stori.id} className=' relative  w-full h-[full]  cursor-pointer md:hover:-translate-y-7 click  duration-200'>
