@@ -68,96 +68,114 @@ const Home = () => {
                 </div>
              </div>
         </article>
-        <article>
+        <article className='w-full m-auto flex flex-col'>
              <img src={imagenDesignedMobile} alt="Mobile" />
-             <img src={imagenDesignedTablet} alt="Tablet" />
-             <img src={imagenDesignedDesktop} alt="Desktop" />
-             <div>
-                    <h2>Create and share your photo stories. </h2>
-                    <p>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
-                    <Link><p> view the stories</p> <img src={arrow} alt="arrow" /></Link>
+             <img src={imagenDesignedTablet} alt="Tablet" className='hidden' />
+             <img src={imagenDesignedDesktop} alt="Desktop" className='hidden'/>
+             <div  className='w-full  flex flex-col gap-12 p-5 pb-12 relative'>
+                    <h2 className='text-3xl uppercase tracking-widest font-semibold mr-32'>DESIGNED FOR EVERYONE </h2>
+                    <p className='text-black text-base mr-12 font-medium'>Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. .</p>
+                    <Link className='cursor-pointer'>
+                    <div className='flex items-center gap-12'>
+                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px]'>view the stories</p> 
+                        <img src={arrow} alt="arrow" className='cursor-pointer ' />
+                    </div></Link>
             </div>
         </article>
         <section>
-            <div>
-                <img src={historia1Mobile} alt="Mobile" />
-                <img src={historia1Desktop} alt="Desktop" />
-                <div>
-                    <h3>The Mountains</h3>
-                    <p>by John Appleseed</p>
-                    <hr />
-                    <Link>
-                        <div>
-                            <h4>READ STORY</h4>
-                            <img src={arrow} alt="arrow" />
+            <div className=' relative  w-full h-[full] '>
+                <div className='  '>
+                    <img src={historia1Mobile} alt="Mobile" className='relative w-full h-full md:hidden' />
+                    <img src={historia1Desktop} alt="Desktop" className='hidden w-full md:flex' />
+                    <div className='absolute top-0   w-full text-white bg-gradient-to-t from-black  h-full'>
+                        <div className='absolute bottom-0 w-full p-8 flex flex-col  gap-2'>
+                            <h3 className='text-xl font-medium'>The Mountains</h3>
+                            <p>by John Appleseed</p>
+                            <hr className='w-full' />
+                            <Link>
+                                <div className='flex justify-between items-center mt-2 '>
+                                    <h4 className='tracking-[1px]'>READ STORY</h4>
+                                    <img src={arrow2} alt="arrow" />
+                                </div>
+                            </Link>
                         </div>
-                    </Link>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src={historia2Mobile} alt="Mobile" />
-                <img src={historia2Desktop} alt="Desktop" />
-                <div>
-                    <h3>Sunset Cityscapes</h3>
-                    <p>by  Benjamin Cruz</p>
-                    <hr />
-                    <Link>
-                        <div>
-                            <h4>READ STORY</h4>
-                            <img src={arrow} alt="arrow" />
-                        </div>
-                    </Link>
+            <div className=' relative  w-full h-[full] '>
+                <img src={historia2Mobile} alt="Mobile" className='relative w-full h-full md:hidden'/>
+                <img src={historia2Desktop} alt="Desktop"  className='hidden w-full md:flex' />  
+                <div className='absolute top-0   w-full text-white bg-gradient-to-t from-black  h-full'>
+                    <div className='absolute bottom-0 w-full p-8 flex flex-col  gap-2'>
+                        <h3 className='text-xl font-medium'>Sunset Cityscapes</h3>
+                        <p>by  Benjamin Cruz</p>
+                        <hr  className='w-full'/>
+                        <Link>
+                            <div className='flex justify-between items-center mt-2 '>
+                                <h4 className='tracking-[1px]'>READ STORY</h4>
+                                <img src={arrow2} alt="arrow" />
+                            </div>
+                        </Link>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src={historia3Mobile} alt="Mobile" />
-                <img src={historia3Desktop} alt="Desktop" />
-                <div>
-                    <h3>18 Days Voyage</h3>
-                    <p>by Alexei Borodin</p>
-                    <hr />
-                    <Link>
-                        <div>
-                            <h4>READ STORY</h4>
-                            <img src={arrow} alt="arrow" />
+            <div className=' relative  w-full h-[full] '>
+                <div className='  '>
+                    <img src={historia3Mobile} alt="Mobile" className='relative w-full h-full md:hidden' />
+                    <img src={historia3Desktop} alt="Desktop" className='hidden  md:flex w-full' />
+                    <div className='absolute top-0   w-full text-white bg-gradient-to-t from-black  h-full'>
+                        <div className='absolute bottom-0 w-full p-8 flex flex-col  gap-2'>
+                            <h3 className='text-xl font-medium'>18 Days Voyage</h3>
+                            <p>by Alexei Borodin</p>
+                            <hr className='w-full' />
+                            <Link>
+                                <div className='flex justify-between items-center mt-2 '>
+                                    <h4 className='tracking-[1px]'>READ STORY</h4>
+                                    <img src={arrow2} alt="arrow" />
+                                </div>
+                            </Link>
                         </div>
-                    </Link>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src={historia4Mobile} alt="Mobile" />
-                <img src={historia4Desktop} alt="Desktop" />
-                <div>
-                    <h3>Architecturals</h3>
-                    <p>by Samantha Brooke</p>
-                    <hr />
-                    <Link>
-                        <div>
-                            <h4>READ STORY</h4>
-                            <img src={arrow} alt="arrow" />
+            <div className=' relative  w-full h-[full] '>
+                <div className='  '>
+                    <img src={historia4Mobile} alt="Mobile" className='relative w-full h-full md:hidden' />
+                    <img src={historia4Desktop} alt="Desktop" className='hidden md:flex w-full h-full' />
+                    <div className='absolute top-0   w-full text-white bg-gradient-to-t from-black  h-full'>
+                        <div className='absolute bottom-0 w-full p-8 flex flex-col  gap-2'>
+                            <h3 className='text-xl font-medium'>Architecturals</h3>
+                            <p>by Samantha Brooke</p>
+                            <hr className='w-full' />
+                            <Link>
+                                <div className='flex justify-between items-center mt-2 '>
+                                    <h4 className='tracking-[1px]'>READ STORY</h4>
+                                    <img src={arrow2} alt="arrow" />
+                                </div>
+                            </Link>
                         </div>
-                    </Link>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <img src={logoResponsive} alt="responsive" />
-                <h3>100% Responsive</h3>
-                <p>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+        <section  className='flex flex-col justify-center items-center p-8 '>
+            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center' >
+                <img src={logoResponsive} alt="responsive" className='w-20 my-6' />
+                <h3 className='text-xl font-bold'>100% Responsive</h3>
+                <p className='text-grey font-normal'>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
             </div> 
 
-            <div>
-                <img src={logoNoLimit} alt="no limit" />
-                <h3>No Photo Upload Limit</h3>
-                <p>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
+            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center'>
+                <img src={logoNoLimit} alt="no limit"  className='w-20 my-6'/>
+                <h3 className='text-xl font-bold'>No Photo Upload Limit</h3>
+                <p className='text-grey font-normal'>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
             </div> 
 
-            <div>
-                <img src={logoEmbed} alt="embed" />
-                <h3>Available to Embed</h3>
-                <p>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>
+            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center'>
+                <img src={logoEmbed} alt="embed"  className='w-20 my-6'/>
+                <h3 className='text-xl font-bold'>Available to Embed</h3>
+                <p className='text-grey font-normal'>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>
             </div>    
         </section>
     </div>

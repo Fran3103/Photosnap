@@ -8,7 +8,7 @@ export default {
       extend: {},
       colors:{
         'black':'#000000',
-        'grey':'#DFDFDF',
+        'grey':'#606060',
         'white':'#ffffff',
 
         //degradado
@@ -18,6 +18,7 @@ export default {
         'tres':'#5A77FF'
 
     },
+    
 
     },
     
