@@ -29,6 +29,12 @@ export default {
         'xl': '1280px',
         // => @media (min-width: 1280px) { ... }
       },
+      backgroundImage:{
+        'Black':'black',
+        'fondopieMb':"url('/src/assets/shared/mobile/bg-beta.webp')",
+        'fondopieTb':"url('/src/assets/shared/tablet/bg-beta.webp')",
+        'fondopieDt':"url('/src/assets/shared/desktop/bg-beta.webp')"
+      }
     
 
     },
