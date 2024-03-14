@@ -1,34 +1,34 @@
-import imagenCreateMobile from '../src/assets/home/mobile/create-and-share.webp'
-import imagenCreateTablet from '../src/assets/home/tablet/create-and-share.webp'
-import imagenCreateDesktop from '../src/assets/home/desktop/create-and-share.webp'
+import imagenCreateMobile from '../../src/assets/home/mobile/create-and-share.webp'
+import imagenCreateTablet from '../../src/assets/home/tablet/create-and-share.webp'
+import imagenCreateDesktop from '../../src/assets/home/desktop/create-and-share.webp'
 
-import imagenBeautifulMobile from '../src/assets/home/mobile/beautiful-stories.webp'
-import imagenBeautifulTablet from '../src/assets/home/tablet/beautiful-stories.webp'
-import imagenBeautifulDesktop from '../src/assets/home/desktop/beautiful-stories.webp'
+import imagenBeautifulMobile from '../../src/assets/home/mobile/beautiful-stories.webp'
+import imagenBeautifulTablet from '../../src/assets/home/tablet/beautiful-stories.webp'
+import imagenBeautifulDesktop from '../../src/assets/home/desktop/beautiful-stories.webp'
 
-import imagenDesignedMobile from '../src/assets/home/mobile/designed-for-everyone.webp'
-import imagenDesignedTablet from '../src/assets/home/tablet/designed-for-everyone.webp'
-import imagenDesignedDesktop from '../src/assets/home/desktop/designed-for-everyone.webp'
+import imagenDesignedMobile from '../../src/assets/home/mobile/designed-for-everyone.webp'
+import imagenDesignedTablet from '../../src/assets/home/tablet/designed-for-everyone.webp'
+import imagenDesignedDesktop from '../../src/assets/home/desktop/designed-for-everyone.webp'
 
-import historia1Mobile from '../src/assets/stories/mobile/mountains.webp'
-import historia1Desktop from '../src/assets/stories/desktop/mountains.webp'
+import historia1Mobile from '../../src/assets/stories/mobile/mountains.webp'
+import historia1Desktop from '../../src/assets/stories/desktop/mountains.webp'
 
-import historia2Mobile from '../src/assets/stories/mobile/cityscapes.webp'
-import historia2Desktop from '../src/assets/stories/desktop/cityscapes.webp'
+import historia2Mobile from '../../src/assets/stories/mobile/cityscapes.webp'
+import historia2Desktop from '../../src/assets/stories/desktop/cityscapes.webp'
 
-import historia3Mobile from '../src/assets/stories/mobile/18-days-voyage.webp'
-import historia3Desktop from '../src/assets/stories/desktop/18-days-voyage.webp'
+import historia3Mobile from '../../src/assets/stories/mobile/18-days-voyage.webp'
+import historia3Desktop from '../../src/assets/stories/desktop/18-days-voyage.webp'
 
-import historia4Mobile from '../src/assets/stories/mobile/architecturals.webp'
-import historia4Desktop from '../src/assets/stories/desktop/architecturals.webp'
+import historia4Mobile from '../../src/assets/stories/mobile/architecturals.webp'
+import historia4Desktop from '../../src/assets/stories/desktop/architecturals.webp'
 
 
-import logoResponsive from './assets/features/desktop/responsive.svg'
-import logoEmbed from './assets/features/desktop/embed.svg'
-import logoNoLimit from './assets/features/desktop/no-limit.svg'
+import logoResponsive from '../assets/features/desktop/responsive.svg'
+import logoEmbed from '../assets/features/desktop/embed.svg'
+import logoNoLimit from '../assets/features/desktop/no-limit.svg'
 
-import arrow from '../src/assets/shared/desktop/arrow.svg'
-import arrow2 from '../src/assets/shared/desktop/arrow2.svg'
+import arrow from '../../src/assets/shared/desktop/arrow.svg'
+import arrow2 from '../../src/assets/shared/desktop/arrow2.svg'
 import { Link } from 'react-router-dom'
 
 

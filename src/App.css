@@ -1,3 +1,18 @@
 *{
     font-family: 'DM Sans';
 }
+
+.svg{
+    display: inline-block;;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.svg-icono{
+    background-image: url('./assets/shared/desktop/pinterest.svg');
+}
+
+
+.svg-icono:hover{
+    background-image: url('./assets/shared/desktop/pinterest2.svg');
+}
