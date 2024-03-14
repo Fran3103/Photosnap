@@ -1,163 +1,207 @@
+
 [
     {
-      "id": 1,
-      "fecha": "April 16th 2020",
-      "titulo": "The Mountains",
-      "autor": "John Appleseed",
-      "img": [
-        "src/assets/stories/mobile/mountains.webp",
-        "src/assets/stories/desktop/mountains.webp"
-      ]
+        "id": 0,
+        "img": [
+            "src/assets/stories/mobile/moon-of-appalacia.webp",
+            "src/assets/stories/desktop/moon-of-appalacia.webp"
+        ],
+        "subtitulo": "LAST MONTH’S FEATURED STORY",
+        "titulo": "HAZY FULL MOON OF APPALACHIA",
+        "fecha": "March 2nd 2020",
+        "autor": "John Appleseed",
+        "historia": "The dissected plateau area, while not actually made up of geological mountains, is popularly called 'mountains,' especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged."
     },
     {
-      "id": 2,
-      "fecha": "April 14th 2020",
-      "titulo": "Sunset Cityscapes",
-      "autor": "Benjamin Cruz",
-      "img": [
-        "src/assets/stories/mobile/cityscapes.webp",
-        "src/assets/stories/desktop/cityscapes.webp"
-      ]
+        "id": 1,
+        "fecha": "April 16th 2020",
+        "titulo": "The Mountains",
+        "subtitulo": "Exploring Majestic Peaks",
+        "autor": "John Appleseed",
+        "img": [
+            "src/assets/stories/mobile/mountains.webp",
+            "src/assets/stories/desktop/mountains.webp"
+        ],
+        "historia": "Explore the majesty of 'The Mountains' with John Appleseed. From towering peaks cloaked in mist to serene valleys bathed in golden light, this series of images invites you to embark on a journey through rugged landscapes and breathtaking vistas, where every step unveils a new adventure and every horizon promises untold wonders."
     },
     {
-      "id": 3,
-      "fecha": "April 11th 2020",
-      "titulo": "18 Days Voyage",
-      "autor": "Alexei Borodin",
-      "img": [
-        "src/assets/stories/mobile/18-days-voyage.webp",
-        "src/assets/stories/desktop/18-days-voyage.webp"
-      ]
+        "id": 2,
+        "fecha": "April 14th 2020",
+        "titulo": "Sunset Cityscapes",
+        "subtitulo": "Discover Urban Nature",
+        "autor": "Benjamin Cruz",
+        "img": [
+            "src/assets/stories/mobile/cityscapes.webp",
+            "src/assets/stories/desktop/cityscapes.webp"
+        ],
+        "historia": "Discover the fascinating blend of urban nature and sunset in this collection of urban landscapes captured by Benjamin Cruz. Enjoy the vibrant color palettes adorning the skyline as the sun bids farewell to the day, creating a unique visual spectacle in every corner of the city."
     },
     {
-      "id": 4,
-      "fecha": "April 9th 2020",
-      "titulo": "Architecturals",
-      "autor": "Samantha Brooke",
-      "img": [
-        "src/assets/stories/mobile/architecturals.webp",
-        "src/assets/stories/desktop/architecturals.webp"
-      ]
+        "id": 3,
+        "fecha": "April 11th 2020",
+        "titulo": "18 Days Voyage",
+        "subtitulo": "An Adventure Across Oceans",
+        "autor": "Alexei Borodin",
+        "img": [
+            "src/assets/stories/mobile/18-days-voyage.webp",
+            "src/assets/stories/desktop/18-days-voyage.webp"
+        ],
+        "historia": "Embark on an exciting 18-day adventure across the seas and oceans of the world with Alexei Borodin. From exotic tropical islands to remote glaciers, this series of images will transport you to distant places and invite you to discover the beauty and diversity of our planet."
     },
     {
-      "id": 5,
-      "fecha": "April 7th 2020",
-      "titulo": "World Tour 2019",
-      "autor": "Timothy Wagner",
-      "img": [
-        "src/assets/stories/mobile/world-tour.webp",
-        "src/assets/stories/desktop/world-tour.webp"
-      ]
+        "id": 4,
+        "fecha": "April 9th 2020",
+        "titulo": "Architecturals",
+        "subtitulo": "Exploring Modern Structures",
+        "autor": "Samantha Brooke",
+        "img": [
+            "src/assets/stories/mobile/architecturals.webp",
+            "src/assets/stories/desktop/architecturals.webp"
+        ],
+        "historia": "Dive into the world of modern architecture with Samantha Brooke as she explores iconic buildings and innovative structures from around the world. From imposing skyscrapers to minimalist designs, this collection takes you on a visual journey through the highlights of contemporary architecture."
     },
     {
-      "id": 6,
-      "fecha": "April 3rd 2020",
-      "titulo": "Unforeseen Corners",
-      "autor": "William Malcolm",
-      "img": [
-        "src/assets/stories/mobile/unforeseen-corners.webp",
-        "src/assets/stories/desktop/unforeseen-corners.webp"
-      ]
+        "id": 5,
+        "fecha": "April 7th 2020",
+        "titulo": "World Tour 2019",
+        "subtitulo": "Capturing Cultural Diversity",
+        "autor": "Timothy Wagner",
+        "img": [
+            "src/assets/stories/mobile/world-tour.webp",
+            "src/assets/stories/desktop/world-tour.webp"
+        ],
+        "historia": "Join Timothy Wagner on his world tour during the year 2019. From the bustling streets of metropolises to the serene landscapes of nature, this series of images captures the unique essence of each destination and invites you to explore the cultural diversity of our planet."
     },
     {
-      "id": 7,
-      "fecha": "March 29th 2020",
-      "titulo": "King on Africa: Part II",
-      "autor": "Tim Hillenburg",
-      "img": [
-        "src/assets/stories/mobile/king-on-africa.webp",
-        "src/assets/stories/desktop/king-on-africa.webp"
-      ]
+        "id": 6,
+        "fecha": "April 3rd 2020",
+        "titulo": "Unforeseen Corners",
+        "subtitulo": "Exploring Hidden Wonders",
+        "autor": "William Malcolm",
+        "img": [
+            "src/assets/stories/mobile/unforeseen-corners.webp",
+            "src/assets/stories/desktop/unforeseen-corners.webp"
+        ],
+        "historia": "Explore the hidden gems and unexpected beauty of the world's corners with William Malcolm. From secluded beaches to forgotten ruins, this collection of images unveils the lesser-known wonders that await discovery beyond the beaten path."
     },
     {
-      "id": 8,
-      "fecha": "March 21st 2020",
-      "titulo": "The Trip to Nowhere",
-      "autor": "Felicia Rourke",
-      "img": [
-        "src/assets/stories/mobile/trip-to-nowhere.webp",
-        "src/assets/stories/desktop/trip-to-nowhere.webp"
-      ]
+        "id": 7,
+        "fecha": "March 29th 2020",
+        "titulo": "King on Africa: Part II",
+        "subtitulo": "Continuing the Adventure",
+        "autor": "Tim Hillenburg",
+        "img": [
+            "src/assets/stories/mobile/king-on-africa.webp",
+            "src/assets/stories/desktop/king-on-africa.webp"
+        ],
+        "historia": "Continue the epic journey through the heart of Africa with Tim Hillenburg in this second installment. From the savannas teeming with wildlife to the towering peaks of Kilimanjaro, experience the raw beauty and untamed wilderness of the African continent."
     },
     {
-      "id": 9,
-      "fecha": "March 19th 2020",
-      "titulo": "Rage of The Sea",
-      "autor": "Mohammed Abdul",
-      "img": [
-        "src/assets/stories/mobile/rage-of-the-sea.webp",
-        "src/assets/stories/desktop/rage-of-the-sea.webp"
-      ]
+        "id": 8,
+        "fecha": "March 21st 2020",
+        "titulo": "The Trip to Nowhere",
+        "subtitulo": "A Surreal Adventure",
+        "autor": "Felicia Rourke",
+        "img": [
+            "src/assets/stories/mobile/trip-to-nowhere.webp",
+            "src/assets/stories/desktop/trip-to-nowhere.webp"
+        ],
+        "historia": "Embark on an extraordinary journey with Felicia Rourke as she shares her surreal adventures in 'The Trip to Nowhere.' From dreamlike landscapes to bizarre encounters, this series of images blurs the line between reality and imagination, inviting you to join her on an unforgettable exploration."
     },
     {
-      "id": 10,
-      "fecha": "March 16th 2020",
-      "titulo": "Running Free",
-      "autor": "Michelle",
-      "img": [
-        "src/assets/stories/mobile/running-free.webp",
-        "src/assets/stories/desktop/running-free.webp"
-      ]
+        "id": 9,
+        "fecha": "March 19th 2020",
+        "titulo": "Rage of The Sea",
+        "subtitulo": "Witnessing Nature's Fury",
+        "autor": "Mohammed Abdul",
+        "img": [
+            "src/assets/stories/mobile/rage-of-the-sea.webp",
+            "src/assets/stories/desktop/rage-of-the-sea.webp"
+        ],
+        "historia": "Witness the fury and power of the sea in this captivating series by Mohammed Abdul. From towering waves crashing against rugged cliffs to stormy skies painted with streaks of lightning, these images capture the raw energy and untamed beauty of the ocean in all its glory."
     },
     {
-      "id": 11,
-      "fecha": "March 11th 2020",
-      "titulo": "Behind the Waves",
-      "autor": "Lamarr Wilson",
-      "img": [
-        "src/assets/stories/mobile/behind-the-waves.webp",
-        "src/assets/stories/desktop/behind-the-waves.webp"
-      ]
+        "id": 10,
+        "fecha": "March 16th 2020",
+        "titulo": "Running Free",
+        "subtitulo": "Embracing Freedom",
+        "autor": "Michelle",
+        "img": [
+            "src/assets/stories/mobile/running-free.webp",
+            "src/assets/stories/desktop/running-free.webp"
+        ],
+        "historia": "Experience the exhilarating freedom of running wild and free with Michelle in this dynamic series. From vast open plains to winding forest trails, these images capture the joy and liberation of movement as you explore the world with unbridled energy and passion."
     },
     {
-      "id": 12,
-      "fecha": "March 9th 2020",
-      "titulo": "Calm Waters",
-      "autor": "Samantha Brooke",
-      "img": [
-        "src/assets/stories/mobile/calm-waters.webp",
-        "src/assets/stories/desktop/calm-waters.webp"
-      ]
+        "id": 11,
+        "fecha": "March 11th 2020",
+        "titulo": "Behind the Waves",
+        "subtitulo": "Exploring Aquatic Realms",
+        "autor": "Lamarr Wilson",
+        "img": [
+            "src/assets/stories/mobile/behind-the-waves.webp",
+            "src/assets/stories/desktop/behind-the-waves.webp"
+        ],
+        "historia": "Dive into the mesmerizing world behind the waves with Lamarr Wilson. From the tranquil depths of the ocean to the powerful forces shaping our coastlines, this series of images offers a glimpse into the hidden beauty and mystery of the aquatic realm."
     },
     {
-      "id": 13,
-      "fecha": "March 5th 2020",
-      "titulo": "The Milky Way",
-      "autor": "Benjamin Cruz",
-      "img": [
-        "src/assets/stories/mobile/milky-way.webp",
-        "src/assets/stories/desktop/milky-way.webp"
-      ]
+        "id": 12,
+        "fecha": "March 9th 2020",
+        "titulo": "Calm Waters",
+        "subtitulo": "Finding Tranquility",
+        "autor": "Samantha Brooke",
+        "img": [
+            "src/assets/stories/mobile/calm-waters.webp",
+            "src/assets/stories/desktop/calm-waters.webp"
+        ],
+        "historia": "Find solace and tranquility amidst the gentle ripples of 'Calm Waters' by Samantha Brooke. From serene lakes reflecting the surrounding landscapes to peaceful rivers winding through lush forests, these images invite you to embrace the soothing embrace of nature's peaceful embrace."
     },
     {
-      "id": 14,
-      "fecha": "March 4th 2020",
-      "titulo": "Night at The Dark Forest",
-      "autor": "Mohammed Abdul",
-      "img": [
-        "src/assets/stories/mobile/dark-forest.webp",
-        "src/assets/stories/desktop/dark-forest.webp"
-      ]
+        "id": 13,
+        "fecha": "March 5th 2020",
+        "titulo": "The Milky Way",
+        "subtitulo": "Journeying Through Space",
+        "autor": "Benjamin Cruz",
+        "img": [
+            "src/assets/stories/mobile/milky-way.webp",
+            "src/assets/stories/desktop/milky-way.webp"
+        ],
+        "historia": "Journey through the cosmic wonders of the Milky Way galaxy with Benjamin Cruz. From dazzling star clusters to ethereal nebulae, these images capture the awe-inspiring beauty and vastness of the universe, inviting you to gaze upon the stars and ponder the mysteries of existence."
     },
     {
-      "id": 15,
-      "fecha": "March 1st 2020",
-      "titulo": "Somwarpet’s Beauty",
-      "autor": "Michelle",
-      "img": [
-        "src/assets/stories/mobile/somwarpet.webp",
-        "src/assets/stories/desktop/somwarpet.webp"
-      ]
+        "id": 14,
+        "fecha": "March 4th 2020",
+        "titulo": "Night at The Dark Forest",
+        "subtitulo": "Exploring Enigmatic Woods",
+        "autor": "Mohammed Abdul",
+        "img": [
+            "src/assets/stories/mobile/dark-forest.webp",
+            "src/assets/stories/desktop/dark-forest.webp"
+        ],
+        "historia": "Explore the eerie enchantment of the 'Dark Forest' with Mohammed Abdul. From shadowy depths to haunting silhouettes, this series of images captures the haunting beauty and mysterious allure of the forest at night, where every rustle of leaves and creak of branches tells a story of ancient secrets and hidden wonders."
     },
     {
-      "id": 16,
-      "fecha": "February 25th 2020",
-      "titulo": "Land of Dreams",
-      "autor": "William Malcolm",
-      "img": [
-        "src/assets/stories/mobile/land-of-dreams.webp",
-        "src/assets/stories/desktop/land-of-dreams.webp"
-      ]
+        "id": 15,
+        "fecha": "March 1st 2020",
+        "titulo": "Somwarpet’s Beauty",
+        "subtitulo": "Discovering Serene Landscapes",
+        "autor": "Michelle",
+        "img": [
+            "src/assets/stories/mobile/somwarpet.webp",
+            "src/assets/stories/desktop/somwarpet.webp"
+        ],
+        "historia": "Discover the enchanting beauty of Somwarpet with Michelle. From rolling hills blanketed in emerald green to cascading waterfalls hidden deep within lush forests, this series of images captures the timeless charm and natural splendor of this picturesque region, inviting you to escape into a world of tranquility and serenity."
+    },
+    {
+        "id": 16,
+        "fecha": "February 25th 2020",
+        "titulo": "Land of Dreams",
+        "subtitulo": "Exploring Surreal Realms",
+        "autor": "William Malcolm",
+        "img": [
+            "src/assets/stories/mobile/land-of-dreams.webp",
+            "src/assets/stories/desktop/land-of-dreams.webp"
+        ],
+        "historia": "Embark on a journey to the 'Land of Dreams' with William Malcolm. From surreal landscapes to whimsical vistas, this series of images transports you to a realm where reality and imagination merge, inviting you to explore the boundless possibilities of the human mind and the wonders of the natural world."
     }
-  ]
-  
+]

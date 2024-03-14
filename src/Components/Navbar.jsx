@@ -12,13 +12,13 @@ const Navbar = () => {
 
 
   return (
-    <div className="w-full h-16 bg-white m-auto md:h-20 relative z-50">
+    <div className="w-full h-16 bg-white m-auto md:h-20 relative z-50 md:z-0">
         <div className="max-w-[1440px] m-auto flex justify-between w-full p-5 md:p-6 relative md:items-center md:gap-12 xl:px-40 ">
             <Link to='/'><img src={logo} onClick={onClick} alt="logo" className="w-48 h-5"/></Link>
             <img src={menu} alt="menu" className={activo ?'hidden': 'flex cursor-pointer md:hidden'}  onClick={onClick}  />
-            <img src={closeMenu} alt="close menu" className={activo ?'flex cursor-pointer': 'hidden'} onClick={onClick} />
-            <div className={activo ?'flex w-full absolute duration-300 transition-all ease-linear mt-11 p-2 px-5 flex-col left-0 justify-center items-center gap-4 pb-12 bg-white': 'hidden duration-300 transition-all ease-linear '} >
-                <ul className="flex flex-col justify-center items-center gap-4 font-semibold tracking-widest">
+            <img src={closeMenu} alt="close menu" className={activo ?'flex cursor-pointer md:hidden': 'hidden'} onClick={onClick} />
+            <div className={activo ?'flex w-full absolute duration-300 transition-all ease-linear mt-11 p-2 px-5 flex-col left-0 justify-center items-center gap-4 pb-12 md:hidden bg-white': 'hidden duration-300 transition-all ease-linear '} >
+                <ul className="flex flex-col justify-center items-center gap-4 font-semibold tracking-widest ">
                     <li><Link to='stories' onClick={onClick} >STORIES</Link></li>
                     <li><Link to='features' onClick={onClick} >FEATURES</Link></li>
                     <li><Link to='pricing' onClick={onClick} >PRICING</Link></li>
