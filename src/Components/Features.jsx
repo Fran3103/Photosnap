@@ -13,12 +13,12 @@ import '../App.css'
 
 const Features = () => {
   return (
-    <div>
+    <div className='w-full m-auto max-w-[1440px]'>
          <header className='w-full m-auto flex flex-col  md:flex-row-reverse '>
              <img src={heroMobile} alt="Mobile" className='md:hidden'/>
              <img src={heroTablet} alt="Tablet" className='hidden md:flex lg:hidden'/>
              <img src={heroDesktop} alt="Desktop" className='hidden lg:flex  lg:w-[600px] xl:w-full'/>
-             <div className='w-full bg-black text-white flex flex-col gap-12 p-5 pb-12 relative md:justify-center md:px-12 '>
+             <div className='w-full bg-black text-white flex flex-col gap-12 p-5 pb-12 relative md:justify-center md:px-12 xl:pl-24'>
                 <div className='absolute gradiente  w-40 h-2 top-0 mb-12  md:h-48 md:w-1 md:top-40 md:left-0 lg:top-24 xl:top-40 md:mb-0'></div>
                 <div className='flex flex-col gap-4 mt-12 md:gap-8'>
                     <h1 className='text-3xl uppercase tracking-widest font-medium mr-12 md:text-4xl'>FEATURES </h1>

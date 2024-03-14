@@ -21,12 +21,12 @@ const Stories = () => {
             <div className='w-full md:h-[650px] md:relative lg:flex' >
                 <img src={stori.img[0]} alt="mobile" className='relative w-full h-full md:hidden'/>
                 <img src={stori.img[1]} alt="tablet" className='hidden w-full md:flex md:absolute top-0 left-0 h-full'/>
-                <div className='flex flex-col text-left gap-4 p-8 bg-black   text-white py-20  top-0 left-0 w-full h-full  '>
+                <div className='flex flex-col text-left gap-4 p-8 bg-black   text-white py-20  top-0 left-0 w-full h-full xl:pl-24 max-w-[800px]  '>
                     <div className='relative z-40 flex flex-col gap-10 justify-center items-start w-full h-full '>
                         <p className='text-[12px]  uppercase tracking-[2px] lg:text-[14px]'>{stori.subtitulo}</p>
                         <h1 className='text-3xl uppercase tracking-widest font-semibold xl:text-5xl'>{stori.titulo}</h1>
                         <p className='text-grey text-xs  tracking-widest md:text-white xl:text-base ' >{stori.fecha} <span className='text-white ml-4'>by {stori.autor}</span></p>
-                        <p className='mb-12 text-grey font-light md:text-white md:max-w-[70%] lg:max-w-[50%] xl:text-xl leading-[1.7rem] '> {stori.historia}</p>
+                        <p className='mb-12 text-grey font-light md:text-white md:max-w-[70%]  xl:text-xl leading-[1.7rem] '> {stori.historia}</p>
                     </div>
                     <div className='hidden md:absolute top-0 left-0 w-full h-full bg-gradient-to-l from-grey via-black to-black opacity-60 md:flex '>
                     </div>

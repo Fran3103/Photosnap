@@ -31,6 +31,7 @@ export default {
       },
       backgroundImage:{
         'Black':'black',
+        'grey':'#606060',
         'fondopieMb':"url('/src/assets/shared/mobile/bg-beta.webp')",
         'fondopieTb':"url('/src/assets/shared/tablet/bg-beta.webp')",
         'fondopieDt':"url('/src/assets/shared/desktop/bg-beta.webp')"

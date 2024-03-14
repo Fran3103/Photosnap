@@ -40,10 +40,10 @@ const Home = () => {
              <img src={imagenCreateTablet} alt="Tablet" className='hidden md:flex lg:hidden'/>
              <img src={imagenCreateDesktop} alt="Desktop" className='hidden lg:flex  lg:w-[600px] xl:w-full'/>
              <div className='w-full bg-black text-white flex flex-col gap-12 p-5 pb-12 relative md:justify-center md:px-12 '>
-                <div className='absolute gradiente w-40 h-2 top-0 mb-12  md:h-72 md:w-1 md:top-48 md:left-0  md:mb-0 lg:top-28 lg:h-60'></div>
-                <div className='flex flex-col gap-4 mt-12 md:gap-8'>
+                <div className='absolute gradiente w-40 h-2 top-0 mb-12  md:h-72 md:w-1 md:top-48 md:left-0  md:mb-0 lg:top-28 xl:top-48 lg:h-60 xl:h-72 '></div>
+                <div className='flex flex-col gap-4 mt-12 md:gap-8 xl:pl-16'>
                     <h1 className='text-3xl uppercase tracking-widest font-medium mr-12 md:text-4xl'>Create and share your photo stories. </h1>
-                    <p className='text-grey text-base mr-12 md:mr-1 '>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
+                    <p className='text-grey text-base mr-12 md:mr-1 xl:mr-16 '>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
                     <Link className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
                         <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey  text-[10px]  xl:text-base'>Get an Invite</p> 
