@@ -8,11 +8,44 @@
     height: 20px;
     background-size: cover;
 }
-.svg-icono{
-    background-image: url('./assets/shared/desktop/pinterest.svg');
+.svg-pinteres{
+    background-image: url('./assets/shared/desktop/pinterest2.svg');
 }
 
 
-.svg-icono:hover{
-    background-image: url('./assets/shared/desktop/pinterest2.svg');
+.svg-pinteres:hover{
+    background-image: url('./assets/shared/desktop/pinterest.svg');
+}
+
+.svg-twitter{
+    background-image: url('./assets/shared/desktop/twitter2.svg');
+}
+
+
+.svg-twitter:hover{
+    background-image: url('./assets/shared/desktop/twitter.svg');
+}
+.svg-youtube{
+    background-image: url('./assets/shared/desktop/youtube2.svg');
+}
+
+
+.svg-youtube:hover{
+    background-image: url('./assets/shared/desktop/youtube.svg');
+}
+.svg-facebook{
+    background-image: url('./assets/shared/desktop/facebook2.svg');
+}
+
+
+.svg-facebook:hover{
+    background-image: url('./assets/shared/desktop/facebook.svg');
+}
+.svg-instagram{
+    background-image: url('./assets/shared/desktop/instagram2.svg');
+}
+
+
+.svg-instagram:hover{
+    background-image: url('./assets/shared/desktop/instagram.svg');
 }
