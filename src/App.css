@@ -70,11 +70,8 @@
 
 }
 
-.fade-in {
-    opacity: 0;;
-    transition: opacity 0.9s ease-in-out;
-  }
-  
-  .fade-in.active {
-    opacity: 1;
+
+  .gradiente{
+    background-image: linear-gradient(to top, #FFC593, #BC7198,#5A77FF);
+    filter: blur(1px)
   }
