@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Footer from './Components/Footer'
+import Stories from './Components/Stories'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     
      <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Stories/>} />
      </Routes>
      <Footer/>
     </>

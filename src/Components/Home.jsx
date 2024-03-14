@@ -37,8 +37,8 @@ const Home = () => {
     <div className='w-full m-auto  max-w-[1440px]'>
         <header className='w-full m-auto flex flex-col  md:flex-row-reverse '>
              <img src={imagenCreateMobile} alt="Mobile" className='md:hidden'/>
-             <img src={imagenCreateTablet} alt="Tablet" className='hidden md:flex xl:hidden'/>
-             <img src={imagenCreateDesktop} alt="Desktop" className='hidden xl:flex'/>
+             <img src={imagenCreateTablet} alt="Tablet" className='hidden md:flex lg:hidden'/>
+             <img src={imagenCreateDesktop} alt="Desktop" className='hidden lg:flex  lg:w-[600px] xl:w-full'/>
              <div className='w-full bg-black text-white flex flex-col gap-12 p-5 pb-12 relative md:justify-center md:px-12 '>
                 <div className='absolute bg-gradient-to-b from-tres via-dos to-uno w-40 h-2 top-0 mb-12  md:h-72 md:w-1 md:top-48 md:left-0  md:mb-0'></div>
                 <div className='flex flex-col gap-4 mt-12 md:gap-8'>
@@ -46,7 +46,7 @@ const Home = () => {
                     <p className='text-grey text-base mr-12 md:mr-1 '>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
                     <Link className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
-                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey  text-[10px]'>Get an Invite</p> 
+                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey  text-[10px]  xl:text-base'>Get an Invite</p> 
                         <img src={arrow2} alt="arrow" className='cursor-pointer' />
                     </div></Link>
                 </div>
@@ -54,15 +54,15 @@ const Home = () => {
         </header>
         <article  className='w-full m-auto flex flex-col md:flex-row'>
              <img src={imagenBeautifulMobile} alt="Mobile" className='md:hidden' />
-             <img src={imagenBeautifulTablet} alt="Tablet"  className='hidden md:flex xl:hidden'/>
-             <img src={imagenBeautifulDesktop} alt="Desktop"  className='hidden xl:flex'/>
+             <img src={imagenBeautifulTablet} alt="Tablet"  className='hidden md:flex lg:hidden'/>
+             <img src={imagenBeautifulDesktop} alt="Desktop"  className='hidden lg:flex  lg:w-[600px] xl:w-full'/>
              <div className='w-full  flex flex-col gap-12 p-5 pb-12 relative  md:justify-center md:px-12 '>
                 <div className='flex flex-col gap-4 mt-12 md:gap-8'>
                     <h2 className='text-3xl uppercase tracking-widest font-semibold mr-32  md:text-4xl'>BEAUTIFUL STORIES EVERY TIME </h2>
                     <p className='text-grey text-base mr-12  md:mr-1'>We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.</p>
                     <Link className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
-                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px]'>view the stories</p> 
+                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px] xl:text-base'>view the stories</p> 
                         <img src={arrow} alt="arrow" className='cursor-pointer ' />
                     </div></Link>
                 </div>
@@ -70,15 +70,15 @@ const Home = () => {
         </article>
         <article className='w-full m-auto flex flex-col md:flex-row-reverse'>
              <img src={imagenDesignedMobile} alt="Mobile" className='md:hidden' />
-             <img src={imagenDesignedTablet} alt="Tablet" className='hidden md:flex xl:hidden' />
-             <img src={imagenDesignedDesktop} alt="Desktop" className='hidden xl:flex'/>
+             <img src={imagenDesignedTablet} alt="Tablet" className='hidden md:flex lg:hidden ' />
+             <img src={imagenDesignedDesktop} alt="Desktop" className='hidden lg:flex  lg:w-[600px] xl:w-full'/>
              <div  className='w-full  flex flex-col gap-12 p-5 pb-12 relative md:justify-center md:px-12 '>
                 <div className='flex flex-col gap-4 mt-12 md:gap-8'>   
                     <h2 className='text-3xl uppercase tracking-widest font-semibold mr-32 md:text-4xl w-full'>DESIGNED FOR EVERYONE </h2>
                     <p className='text-grey text-base mr-12 md:mr-1'>Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. .</p>
                     <Link className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
-                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px]'>view the stories</p> 
+                        <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px] xl:text-base '>view the stories</p> 
                         <img src={arrow} alt="arrow" className='cursor-pointer ' />
                     </div>
                 </Link>

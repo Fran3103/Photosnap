@@ -19,13 +19,16 @@ export default {
 
     }, 
     
-    dropShadow: {
-        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
-        'colores': [
-            '#FFC593',
-       
-        ]
-      }
+    screens: {
+        'md': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+      },
     
 
     },
