@@ -17,7 +17,15 @@ export default {
         'dos': '#BC7198',
         'tres':'#5A77FF'
 
-    },
+    }, 
+    
+    dropShadow: {
+        '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+        'colores': [
+            '#FFC593',
+       
+        ]
+      }
     
 
     },

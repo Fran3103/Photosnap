@@ -26,7 +26,7 @@ import historia4Desktop from '../../src/assets/stories/desktop/architecturals.we
 import logoResponsive from '../assets/features/desktop/responsive.svg'
 import logoEmbed from '../assets/features/desktop/embed.svg'
 import logoNoLimit from '../assets/features/desktop/no-limit.svg'
-
+import '../App.css'
 import arrow from '../../src/assets/shared/desktop/arrow.svg'
 import arrow2 from '../../src/assets/shared/desktop/arrow2.svg'
 import { Link } from 'react-router-dom'
@@ -34,7 +34,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className='w-full m-auto '>
+    <div className='w-full m-auto  max-w-[1440px]'>
         <header className='w-full m-auto flex flex-col'>
              <img src={imagenCreateMobile} alt="Mobile" className=''/>
              <img src={imagenCreateTablet} alt="Tablet" className='hidden'/>
@@ -82,8 +82,8 @@ const Home = () => {
                     </div></Link>
             </div>
         </article>
-        <section>
-            <div className=' relative  w-full h-[full] '>
+        <section className='flex flex-col md:grid grid-cols-2 grid-rows-2 xl:flex-row xl:flex'>
+            <div className=' relative  w-full h-[full]  cursor-pointer hover:-translate-y-7 click  duration-200'>
                 <div className='  '>
                     <img src={historia1Mobile} alt="Mobile" className='relative w-full h-full md:hidden' />
                     <img src={historia1Desktop} alt="Desktop" className='hidden w-full md:flex' />
@@ -101,25 +101,28 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+           
             </div>
-            <div className=' relative  w-full h-[full] '>
-                <img src={historia2Mobile} alt="Mobile" className='relative w-full h-full md:hidden'/>
-                <img src={historia2Desktop} alt="Desktop"  className='hidden w-full md:flex' />  
-                <div className='absolute top-0   w-full text-white bg-gradient-to-t from-black  h-full'>
-                    <div className='absolute bottom-0 w-full p-8 flex flex-col  gap-2'>
-                        <h3 className='text-xl font-medium'>Sunset Cityscapes</h3>
-                        <p>by  Benjamin Cruz</p>
-                        <hr  className='w-full'/>
-                        <Link>
-                            <div className='flex justify-between items-center mt-2 '>
-                                <h4 className='tracking-[1px]'>READ STORY</h4>
-                                <img src={arrow2} alt="arrow" />
-                            </div>
-                        </Link>
+            <div className=' relative  w-full h-[full]  cursor-pointer hover:-translate-y-7 click  duration-200'>
+                <div className='  '>
+                    <img src={historia2Mobile} alt="Mobile" className='relative w-full h-full md:hidden'/>
+                    <img src={historia2Desktop} alt="Desktop"  className='hidden w-full md:flex' />  
+                    <div className='absolute top-0   w-full text-white bg-gradient-to-t from-black  h-full'>
+                        <div className='absolute bottom-0 w-full p-8 flex flex-col  gap-2'>
+                            <h3 className='text-xl font-medium'>Sunset Cityscapes</h3>
+                            <p>by  Benjamin Cruz</p>
+                            <hr  className='w-full'/>
+                            <Link>
+                                <div className='flex justify-between items-center mt-2 '>
+                                    <h4 className='tracking-[1px]'>READ STORY</h4>
+                                    <img src={arrow2} alt="arrow" />
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className=' relative  w-full h-[full] '>
+            <div className=' relative  w-full h-[full]  cursor-pointer hover:-translate-y-7 click  duration-200'>
                 <div className='  '>
                     <img src={historia3Mobile} alt="Mobile" className='relative w-full h-full md:hidden' />
                     <img src={historia3Desktop} alt="Desktop" className='hidden  md:flex w-full' />
@@ -138,7 +141,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className=' relative  w-full h-[full] '>
+            <div className=' relative  w-full h-[full]  cursor-pointer hover:-translate-y-7 click  duration-200'>
                 <div className='  '>
                     <img src={historia4Mobile} alt="Mobile" className='relative w-full h-full md:hidden' />
                     <img src={historia4Desktop} alt="Desktop" className='hidden md:flex w-full h-full' />
@@ -159,20 +162,20 @@ const Home = () => {
             </div>
         </section>
 
-        <section  className='flex flex-col justify-center items-center p-8 '>
-            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center' >
-                <img src={logoResponsive} alt="responsive" className='w-20 my-6' />
+        <section  className='flex flex-col justify-center items-center p-8 max-w-[1110px] m-auto xl:flex-row   xl:justify-between xl:px-12 xl:py-20 xl:items-end xl:gap-7'>
+            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center md:w-[570px]  xl:p-0 h-full xl:justify-between' >
+                <img src={logoResponsive} alt="responsive" className='w-20 my-6 ' />
                 <h3 className='text-xl font-bold'>100% Responsive</h3>
-                <p className='text-grey font-normal'>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
+                <p className='text-grey font-normal '>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
             </div> 
 
-            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center'>
+            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center md:w-[570px]  xl:p-0 h-full xl:justify-between'>
                 <img src={logoNoLimit} alt="no limit"  className='w-20 my-6'/>
                 <h3 className='text-xl font-bold'>No Photo Upload Limit</h3>
                 <p className='text-grey font-normal'>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
             </div> 
 
-            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center'>
+            <div className='flex flex-col justify-center items-center p-8  gap-6 text-center md:w-[570px]  xl:p-0 h-full xl:justify-between'>
                 <img src={logoEmbed} alt="embed"  className='w-20 my-6'/>
                 <h3 className='text-xl font-bold'>Available to Embed</h3>
                 <p className='text-grey font-normal'>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>

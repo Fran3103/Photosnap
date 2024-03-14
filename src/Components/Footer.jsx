@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <>
     <div className="bg-black w-full">
-        <div className="w-full max-w-[1440px] bg-black flex flex-col justify-center items-center m-auto p-5 text-white py-10 gap-12  md:flex-row md:h-[290px] xl:h-[240px] md:items-start md:justify-between md:px-12" >
+        <div className="w-full max-w-[1110px] bg-black flex flex-col justify-center items-center m-auto p-5 text-white py-10 gap-12  md:flex-row md:h-[290px] xl:h-[240px] md:items-start md:justify-between md:px-12" >
             <div className=" flex flex-col gap-8 md:grid grid-cols-1 grid-rows-3  md:justify-items-start md:gap-4 md:mt-6   xl:grid-cols-2 xl:gap-20  h-full xl:w-[450px]">
                 <Link to='/'>
                     <img src={logo} alt="logo" />
