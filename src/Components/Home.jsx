@@ -167,19 +167,19 @@ const Home = () => {
 
         <section  className='flex flex-col justify-center items-center p-8 max-w-[1110px] m-auto xl:flex-row   xl:justify-between xl:px-12 xl:py-20 xl:items-end xl:gap-7'>
             <div className='flex flex-col justify-center items-center p-8  gap-6 text-center md:w-[570px]  xl:p-0 h-full xl:justify-between' >
-                <img src={logoResponsive} alt="responsive" className='w-20 my-6 ' />
+                <img src={logoResponsive} alt="responsive" className='w-20 my-6 h-20 ' />
                 <h3 className='text-xl font-bold'>100% Responsive</h3>
                 <p className='text-grey font-normal '>No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.</p>
             </div> 
 
             <div className='flex flex-col justify-center items-center p-8  gap-6 text-center md:w-[570px]  xl:p-0 h-full xl:justify-between'>
-                <img src={logoNoLimit} alt="no limit"  className='w-20 my-6'/>
+                <img src={logoNoLimit} alt="no limit"  className='w-28 my-6 h-20 '/>
                 <h3 className='text-xl font-bold'>No Photo Upload Limit</h3>
                 <p className='text-grey font-normal'>Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.</p>
             </div> 
 
             <div className='flex flex-col justify-center items-center p-8  gap-6 text-center md:w-[570px]  xl:p-0 h-full xl:justify-between'>
-                <img src={logoEmbed} alt="embed"  className='w-20 my-6'/>
+                <img src={logoEmbed} alt="embed"  className='w-20 my-6 h-20 '/>
                 <h3 className='text-xl font-bold'>Available to Embed</h3>
                 <p className='text-grey font-normal'>Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. </p>
             </div>    
