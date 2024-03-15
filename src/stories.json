@@ -127,8 +127,8 @@
         "subtitulo": "Embracing Freedom",
         "autor": "Michelle",
         "img": [
-            "//stories/mobile/running-free.webp",
-            "//stories/desktop/running-free.webp"
+            "/stories/mobile/running-free.webp",
+            "/stories/desktop/running-free.webp"
         ],
         "historia": "Experience the exhilarating freedom of running wild and free with Michelle in this dynamic series. From vast open plains to winding forest trails, these images capture the joy and liberation of movement as you explore the world with unbridled energy and passion."
     },
