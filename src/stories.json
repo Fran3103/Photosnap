@@ -3,8 +3,8 @@
     {
         "id": 0,
         "img": [
-            "src/assets/stories/mobile/moon-of-appalacia.webp",
-            "src/assets/stories/desktop/moon-of-appalacia.webp"
+            "/stories/mobile/moon-of-appalacia.webp",
+            "/stories/desktop/moon-of-appalacia.webp"
         ],
         "subtitulo": "LAST MONTH’S FEATURED STORY",
         "titulo": "HAZY FULL MOON OF APPALACHIA",
@@ -19,8 +19,8 @@
         "subtitulo": "Exploring Majestic Peaks",
         "autor": "John Appleseed",
         "img": [
-            "src/assets/stories/mobile/mountains.webp",
-            "src/assets/stories/desktop/mountains.webp"
+            "sstories/mobile/mountains.webp",
+            "/stories/desktop/mountains.webp"
         ],
         "historia": "Explore the majesty of 'The Mountains' with John Appleseed. From towering peaks cloaked in mist to serene valleys bathed in golden light, this series of images invites you to embark on a journey through rugged landscapes and breathtaking vistas, where every step unveils a new adventure and every horizon promises untold wonders."
     },
@@ -31,8 +31,8 @@
         "subtitulo": "Discover Urban Nature",
         "autor": "Benjamin Cruz",
         "img": [
-            "src/assets/stories/mobile/cityscapes.webp",
-            "src/assets/stories/desktop/cityscapes.webp"
+            "/stories/mobile/cityscapes.webp",
+            "/stories/desktop/cityscapes.webp"
         ],
         "historia": "Discover the fascinating blend of urban nature and sunset in this collection of urban landscapes captured by Benjamin Cruz. Enjoy the vibrant color palettes adorning the skyline as the sun bids farewell to the day, creating a unique visual spectacle in every corner of the city."
     },
@@ -43,8 +43,8 @@
         "subtitulo": "An Adventure Across Oceans",
         "autor": "Alexei Borodin",
         "img": [
-            "src/assets/stories/mobile/18-days-voyage.webp",
-            "src/assets/stories/desktop/18-days-voyage.webp"
+            "/stories/mobile/18-days-voyage.webp",
+            "/stories/desktop/18-days-voyage.webp"
         ],
         "historia": "Embark on an exciting 18-day adventure across the seas and oceans of the world with Alexei Borodin. From exotic tropical islands to remote glaciers, this series of images will transport you to distant places and invite you to discover the beauty and diversity of our planet."
     },
@@ -55,8 +55,8 @@
         "subtitulo": "Exploring Modern Structures",
         "autor": "Samantha Brooke",
         "img": [
-            "src/assets/stories/mobile/architecturals.webp",
-            "src/assets/stories/desktop/architecturals.webp"
+            "/stories/mobile/architecturals.webp",
+            "/stories/desktop/architecturals.webp"
         ],
         "historia": "Dive into the world of modern architecture with Samantha Brooke as she explores iconic buildings and innovative structures from around the world. From imposing skyscrapers to minimalist designs, this collection takes you on a visual journey through the highlights of contemporary architecture."
     },
@@ -67,8 +67,8 @@
         "subtitulo": "Capturing Cultural Diversity",
         "autor": "Timothy Wagner",
         "img": [
-            "src/assets/stories/mobile/world-tour.webp",
-            "src/assets/stories/desktop/world-tour.webp"
+            "/stories/mobile/world-tour.webp",
+            "/stories/desktop/world-tour.webp"
         ],
         "historia": "Join Timothy Wagner on his world tour during the year 2019. From the bustling streets of metropolises to the serene landscapes of nature, this series of images captures the unique essence of each destination and invites you to explore the cultural diversity of our planet."
     },
@@ -79,8 +79,8 @@
         "subtitulo": "Exploring Hidden Wonders",
         "autor": "William Malcolm",
         "img": [
-            "src/assets/stories/mobile/unforeseen-corners.webp",
-            "src/assets/stories/desktop/unforeseen-corners.webp"
+            "/stories/mobile/unforeseen-corners.webp",
+            "/stories/desktop/unforeseen-corners.webp"
         ],
         "historia": "Explore the hidden gems and unexpected beauty of the world's corners with William Malcolm. From secluded beaches to forgotten ruins, this collection of images unveils the lesser-known wonders that await discovery beyond the beaten path."
     },
@@ -91,8 +91,8 @@
         "subtitulo": "Continuing the Adventure",
         "autor": "Tim Hillenburg",
         "img": [
-            "src/assets/stories/mobile/king-on-africa.webp",
-            "src/assets/stories/desktop/king-on-africa.webp"
+            "/stories/mobile/king-on-africa.webp",
+            "/stories/desktop/king-on-africa.webp"
         ],
         "historia": "Continue the epic journey through the heart of Africa with Tim Hillenburg in this second installment. From the savannas teeming with wildlife to the towering peaks of Kilimanjaro, experience the raw beauty and untamed wilderness of the African continent."
     },
@@ -127,8 +127,8 @@
         "subtitulo": "Embracing Freedom",
         "autor": "Michelle",
         "img": [
-            "/src/assets/stories/mobile/running-free.webp",
-            "/src/assets/stories/desktop/running-free.webp"
+            "//stories/mobile/running-free.webp",
+            "//stories/desktop/running-free.webp"
         ],
         "historia": "Experience the exhilarating freedom of running wild and free with Michelle in this dynamic series. From vast open plains to winding forest trails, these images capture the joy and liberation of movement as you explore the world with unbridled energy and passion."
     },
@@ -139,8 +139,8 @@
         "subtitulo": "Exploring Aquatic Realms",
         "autor": "Lamarr Wilson",
         "img": [
-            "src/assets/stories/mobile/behind-the-waves.webp",
-            "src/assets/stories/desktop/behind-the-waves.webp"
+            "/stories/mobile/behind-the-waves.webp",
+            "/stories/desktop/behind-the-waves.webp"
         ],
         "historia": "Dive into the mesmerizing world behind the waves with Lamarr Wilson. From the tranquil depths of the ocean to the powerful forces shaping our coastlines, this series of images offers a glimpse into the hidden beauty and mystery of the aquatic realm."
     },
@@ -151,8 +151,8 @@
         "subtitulo": "Finding Tranquility",
         "autor": "Samantha Brooke",
         "img": [
-            "src/assets/stories/mobile/calm-waters.webp",
-            "src/assets/stories/desktop/calm-waters.webp"
+            "/stories/mobile/calm-waters.webp",
+            "/stories/desktop/calm-waters.webp"
         ],
         "historia": "Find solace and tranquility amidst the gentle ripples of 'Calm Waters' by Samantha Brooke. From serene lakes reflecting the surrounding landscapes to peaceful rivers winding through lush forests, these images invite you to embrace the soothing embrace of nature's peaceful embrace."
     },
@@ -163,8 +163,8 @@
         "subtitulo": "Journeying Through Space",
         "autor": "Benjamin Cruz",
         "img": [
-            "src/assets/stories/mobile/milky-way.webp",
-            "src/assets/stories/desktop/milky-way.webp"
+            "/stories/mobile/milky-way.webp",
+            "/stories/desktop/milky-way.webp"
         ],
         "historia": "Journey through the cosmic wonders of the Milky Way galaxy with Benjamin Cruz. From dazzling star clusters to ethereal nebulae, these images capture the awe-inspiring beauty and vastness of the universe, inviting you to gaze upon the stars and ponder the mysteries of existence."
     },
@@ -175,8 +175,8 @@
         "subtitulo": "Exploring Enigmatic Woods",
         "autor": "Mohammed Abdul",
         "img": [
-            "src/assets/stories/mobile/dark-forest.webp",
-            "src/assets/stories/desktop/dark-forest.webp"
+            "/stories/mobile/dark-forest.webp",
+            "/stories/desktop/dark-forest.webp"
         ],
         "historia": "Explore the eerie enchantment of the 'Dark Forest' with Mohammed Abdul. From shadowy depths to haunting silhouettes, this series of images captures the haunting beauty and mysterious allure of the forest at night, where every rustle of leaves and creak of branches tells a story of ancient secrets and hidden wonders."
     },
@@ -187,8 +187,8 @@
         "subtitulo": "Discovering Serene Landscapes",
         "autor": "Michelle",
         "img": [
-            "src/assets/stories/mobile/somwarpet.webp",
-            "src/assets/stories/desktop/somwarpet.webp"
+            "/stories/mobile/somwarpet.webp",
+            "/stories/desktop/somwarpet.webp"
         ],
         "historia": "Discover the enchanting beauty of Somwarpet with Michelle. From rolling hills blanketed in emerald green to cascading waterfalls hidden deep within lush forests, this series of images captures the timeless charm and natural splendor of this picturesque region, inviting you to escape into a world of tranquility and serenity."
     },
@@ -199,8 +199,8 @@
         "subtitulo": "Exploring Surreal Realms",
         "autor": "William Malcolm",
         "img": [
-            "src/assets/stories/mobile/land-of-dreams.webp",
-            "src/assets/stories/desktop/land-of-dreams.webp"
+            "/stories/mobile/land-of-dreams.webp",
+            "/stories/desktop/land-of-dreams.webp"
         ],
         "historia": "Embark on a journey to the 'Land of Dreams' with William Malcolm. From surreal landscapes to whimsical vistas, this series of images transports you to a realm where reality and imagination merge, inviting you to explore the boundless possibilities of the human mind and the wonders of the natural world."
     }
