@@ -1,6 +1,7 @@
 import heroMobile from '../../src/assets/pricing/mobile/hero.webp'
 import heroTablet from '../../src/assets/pricing/tablet/hero.webp'
 import heroDesktop from '../../src/assets/pricing/desktop/hero.webp'
+import check from '../../src/assets/pricing/desktop/check.svg'
 import { Link } from 'react-router-dom'
 import arrow2 from '../../src/assets/shared/desktop/arrow2.svg'
 import { useState } from 'react'
@@ -103,7 +104,287 @@ export const Pricing = () => {
             </div>
          </div>
 
+        <div className='max-w-[730px] p-8 m-auto md:hidden'>
+              <h3 className='text-lg tracking-[1px] font-bold uppercase my-5'>The features</h3>
+              <hr />
+              <div>
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>UNLIMITED STORY POSTING</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                        <img src={check} alt="check" />
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                        <img src={check} alt="check" />
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr  className='text-grey opacity-50'/>
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>UNLIMITED PHOTO UPLOAD</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p>basic</p>
+                        <img src={check} alt="check" />
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                        <img src={check} alt="check" />
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr className='text-grey opacity-50' />
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>EMBEDDING CUSTOM CONTENT</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                        
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                        <img src={check} alt="check" />
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr className='text-grey opacity-50' />
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>CUSTOMIZE METADATA</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                        
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                        <img src={check} alt="check" />
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr  className='text-grey opacity-50'/>
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>ADVANCED METRICS</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                       
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                       
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr className='text-grey opacity-50' />
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>PHOTO DOWNLOADS</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                      
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                       
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr  className='text-grey opacity-50'/>
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>SEARCH ENGINE INDEXING</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                       
+                       
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                       
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr className='text-grey opacity-50'/>
+                <h3 className='text-lg tracking-[1px] font-bold uppercase my-4'>CUSTOM ANALYTICS</h3>
+                <div className='flex justify-between gap-4 my-3'>
+                    <div className='flex flex-col justify-between items-start gap-2 '>
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>basic</p>
+                     
+                       
+                    </div>
+                    <div className='flex flex-col justify-between items-start gap-2  '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>pro</p>
+                      
+                    </div>
+                    <div className='flex flex-col  justify-between items-start  gap-2 '>
+                        
+                        <p className='text-grey uppercase text-[12px] tracking-[1px] font-semibold'>business</p>
+                        <img src={check} alt="check" />
+                        
+                    </div>
+                </div>
+                <hr  className='text-grey opacity-50'/>
+               
+              </div>
+        </div>
+        <h2 className='text-4xl xl:text-5xl text-center uppercase font-bold mt-12 md:block hidden '>compare</h2>
+        <div className='max-w-[830px] w-full md:flex flex flex-col p-8 m-auto justify-between mb-20 '>
+            <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                    <h3>the features</h3>
+                    <div className='flex justify-between   w-[300px]'>
+                        <h4>basic</h4>
+                        <h4>pro</h4>
+                        <h4>business</h4>
+                    </div>
+                </div>
+            </div>
+                <hr className='w-full '/>
 
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>UNLIMITED STORY POSTING</h3>
+                        <div className='flex justify-between w-[300px]'>
+                            <img src={check} alt="check" />
+                            <img src={check} alt="check" />
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>UNLIMITED PHOTO UPLOAD</h3>
+                        <div className='flex justify-between w-[300px]'>
+                            <img src={check} alt="check" />
+                            <img src={check} alt="check" />
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>EMBEDDING CUSTOM CONTENT</h3>
+                        <div className='flex justify-between w-[160px]'>
+                           
+                            <img src={check} alt="check" />
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>CUSTOMIZE METADATA</h3>
+                        <div className='flex justify-between w-[160px]'>
+                            
+                            <img src={check} alt="check" />
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>ADVANCED METRICS</h3>
+                        <div className='flex justify-end w-[300px]'>
+                            
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>PHOTO DOWNLOADS</h3>
+                        <div className='flex justify-end w-[300px]'>
+                            
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>SEARCH ENGINE INDEXING</h3>
+                        <div className='flex justify-end w-[300px]'>
+                            
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                    <hr className='text-grey opacity-30'/>
+                <div className=' p-8 m-auto hidden md:flex justify-between w-full'>
+                    <div className='uppercase text-xl font-bold tracking-[1px] flex justify-between w-full items-center'>
+                        <h3 className=' text-xs lg:text-base'>CUSTOM ANALYTICS</h3>
+                        <div className='flex justify-end w-[300px]'>
+                            
+                            <img src={check} alt="check" />
+                            
+                        </div>
+                    </div>
+                </div>
+                <hr className='text-grey opacity-30'/>
+        </div>
 
         <article className='relative w-full h-[288px] md:h-[280px] m-auto bg-fondopieMb md:bg-fondopieTb lg:bg-fondopieDt bg-cover '>
              
@@ -112,7 +393,7 @@ export const Pricing = () => {
                 <div className='flex flex-col gap-4 mt-12 md:gap-8 md:flex-row  md:mt-0 md:justify-between md:items-center relative z-0'>
 
                     <h2 className='text-3xl mr-12 uppercase tracking-widest font-bold  md:text-4xl md:w-96 '>We’re in beta. Get your invite today! </h2>
-                    <Link className='cursor-pointer'>
+                    <Link to='/pricing' className='cursor-pointer'>
                     <div className='flex items-center mt-4 md:w-48 md:gap-0 gap-12  w-full'>
                         <p className="p-2 hover:text-grey   text-white uppercase tracking-widest">GET AN INVITE</p> 
                         <img src={arrow2} alt="arrow" className='cursor-pointer ' />

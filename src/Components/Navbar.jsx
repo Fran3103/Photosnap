@@ -24,14 +24,19 @@ const Navbar = () => {
                     <li><Link to='pricing' onClick={onClick} >PRICING</Link></li>
                 </ul>
                 <hr className="w-full h-[1px] m-auto" />
-                <button className="p-2  bg-black w-full text-white uppercase tracking-widest">Get an invite</button>
+                
+                    <button  onClick={onClick} className="p-2  bg-black w-full text-white uppercase tracking-widest"><Link to='pricing'>Get an invite </Link></button>
+               
             </div>
             <ul className="hidden md:flex justify-center items-center w-full gap-8 xl:gap-12 font-semibold tracking-widest">
                     <li><Link to='stories' onClick={onClick}  className="cursor-pointer hover:text-grey">STORIES</Link></li>
                     <li><Link to='features' onClick={onClick}  className="cursor-pointer hover:text-grey">FEATURES</Link></li>
                     <li><Link to='pricing'  onClick={onClick} className="cursor-pointer hover:text-grey">PRICING</Link></li>
             </ul>
-            <button className="hidden md:block w-60 bg-black py-2  text-[10px] xl:text-base xl:py-3 xl:w-80  hover:bg-grey hover:text-black text-white uppercase tracking-widest">Get an invite</button>
+            
+                <button className="hidden md:block w-60 bg-black py-2  text-[10px] xl:text-base xl:py-3 xl:w-80  hover:bg-grey hover:text-black text-white uppercase tracking-widest">
+                    <Link to='/pricing'>Get an invite</Link></button>
+           
         </div>
     </div>
   )

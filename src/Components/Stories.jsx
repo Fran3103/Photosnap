@@ -14,7 +14,7 @@ const Stories = () => {
         setStori(stories[e])
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-    console.log(stories)
+
   return (
     <div className="w-full max-w-[1440px] m-auto">
          <div>

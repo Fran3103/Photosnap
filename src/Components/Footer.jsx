@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col justify-center items-center w-full gap-12 mt-7 md:items-end md:justify-between h-full xl:w-72">
             
-                    <Link className="hover:text-grey flex justify-between h-2 items-center gap-6">
+                    <Link to='/pricing' className="hover:text-grey flex justify-between h-2 items-center gap-6">
                         <button className="p-2 hover:text-grey bg-black w-full text-white uppercase tracking-widest">Get an invite</button>
                         <img src={arrow2} alt="arrow" className='cursor-pointer ' />
                     </Link>

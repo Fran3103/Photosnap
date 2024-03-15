@@ -70,7 +70,7 @@ const Features = () => {
                 <div className='flex flex-col gap-4 mt-12 md:gap-8 md:flex-row  md:mt-0 md:justify-between md:items-center relative z-0'>
 
                     <h2 className='text-3xl mr-12 uppercase tracking-widest font-bold  md:text-4xl md:w-96 '>We’re in beta. Get your invite today! </h2>
-                    <Link className='cursor-pointer'>
+                    <Link to='/pricing' className='cursor-pointer'>
                     <div className='flex items-center mt-4 md:w-48 md:gap-0 gap-12  w-full'>
                         <p className="p-2 hover:text-grey   text-white uppercase tracking-widest">GET AN INVITE</p> 
                         <img src={arrow2} alt="arrow" className='cursor-pointer ' />

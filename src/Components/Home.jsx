@@ -44,7 +44,7 @@ const Home = () => {
                 <div className='flex flex-col gap-4 mt-12 md:gap-8 xl:pl-16'>
                     <h1 className='text-3xl uppercase tracking-widest font-medium mr-12 md:text-4xl'>Create and share your photo stories. </h1>
                     <p className='text-grey text-base mr-12 md:mr-1 xl:mr-16 '>Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.</p>
-                    <Link className='cursor-pointer'>
+                    <Link to='/pricing' className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
                         <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey  text-[10px]  xl:text-base'>Get an Invite</p> 
                         <img src={arrow2} alt="arrow" className='cursor-pointer' />
@@ -60,7 +60,7 @@ const Home = () => {
                 <div className='flex flex-col gap-4 mt-12 md:gap-8'>
                     <h2 className='text-3xl uppercase tracking-widest font-semibold mr-32  md:text-4xl'>BEAUTIFUL STORIES EVERY TIME </h2>
                     <p className='text-grey text-base mr-12  md:mr-1'>We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.</p>
-                    <Link className='cursor-pointer'>
+                    <Link to='/stories' className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
                         <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px] xl:text-base'>view the stories</p> 
                         <img src={arrow} alt="arrow" className='cursor-pointer ' />
@@ -76,7 +76,7 @@ const Home = () => {
                 <div className='flex flex-col gap-4 mt-12 md:gap-8'>   
                     <h2 className='text-3xl uppercase tracking-widest font-semibold mr-32 md:text-4xl w-full'>DESIGNED FOR EVERYONE </h2>
                     <p className='text-grey text-base mr-12 md:mr-1'>Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. .</p>
-                    <Link className='cursor-pointer'>
+                    <Link to='/stories' className='cursor-pointer'>
                     <div className='flex items-center gap-12'>
                         <p className='uppercase tracking-[3px] cursor-pointer hover:text-grey font-black text-[10px] xl:text-base '>view the stories</p> 
                         <img src={arrow} alt="arrow" className='cursor-pointer ' />
@@ -95,7 +95,7 @@ const Home = () => {
                             <h3 className='text-xl font-medium'>The Mountains</h3>
                             <p>by John Appleseed</p>
                             <hr className='w-full' />
-                            <Link>
+                            <Link to='/stories'>
                                 <div className='flex justify-between items-center mt-2 '>
                                     <h4 className='tracking-[1px]'>READ STORY</h4>
                                     <img src={arrow2} alt="arrow" />
@@ -115,7 +115,7 @@ const Home = () => {
                             <h3 className='text-xl font-medium'>Sunset Cityscapes</h3>
                             <p>by  Benjamin Cruz</p>
                             <hr  className='w-full'/>
-                            <Link>
+                            <Link to='/stories'>
                                 <div className='flex justify-between items-center mt-2 '>
                                     <h4 className='tracking-[1px]'>READ STORY</h4>
                                     <img src={arrow2} alt="arrow" />
@@ -134,7 +134,7 @@ const Home = () => {
                             <h3 className='text-xl font-medium'>18 Days Voyage</h3>
                             <p>by Alexei Borodin</p>
                             <hr className='w-full' />
-                            <Link>
+                            <Link to='/stories'>
                                 <div className='flex justify-between items-center mt-2 '>
                                     <h4 className='tracking-[1px]'>READ STORY</h4>
                                     <img src={arrow2} alt="arrow" />
@@ -153,7 +153,7 @@ const Home = () => {
                             <h3 className='text-xl font-medium'>Architecturals</h3>
                             <p>by Samantha Brooke</p>
                             <hr className='w-full' />
-                            <Link>
+                            <Link to='/stories' >
                                 <div className='flex justify-between items-center mt-2 '>
                                     <h4 className='tracking-[1px]'>READ STORY</h4>
                                     <img src={arrow2} alt="arrow" />
