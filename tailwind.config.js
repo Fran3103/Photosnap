@@ -9,6 +9,7 @@ export default {
       colors:{
         'black':'#000000',
         'grey':'#606060',
+        'grey2':'#f5f5f5',
         'white':'#ffffff',
 
         //degradado
