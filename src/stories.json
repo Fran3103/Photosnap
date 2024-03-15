@@ -103,8 +103,8 @@
         "subtitulo": "A Surreal Adventure",
         "autor": "Felicia Rourke",
         "img": [
-            "/src/assets/stories/mobile/trip-to-nowhere.webp",
-            "/src/assets/stories/desktop/trip-to-nowhere.webp"
+            "/stories/mobile/trip-to-nowhere.webp",
+            "/stories/desktop/trip-to-nowhere.webp"
         ],
         "historia": "Embark on an extraordinary journey with Felicia Rourke as she shares her surreal adventures in 'The Trip to Nowhere.' From dreamlike landscapes to bizarre encounters, this series of images blurs the line between reality and imagination, inviting you to join her on an unforgettable exploration."
     },
@@ -115,8 +115,8 @@
         "subtitulo": "Witnessing Nature's Fury",
         "autor": "Mohammed Abdul",
         "img": [
-            "/src/assets/stories/mobile/rage-of-the-sea.webp",
-            "/src/assets/stories/desktop/rage-of-the-sea.webp"
+            "/stories/mobile/rage-of-the-sea.webp",
+            "/stories/desktop/rage-of-the-sea.webp"
         ],
         "historia": "Witness the fury and power of the sea in this captivating series by Mohammed Abdul. From towering waves crashing against rugged cliffs to stormy skies painted with streaks of lightning, these images capture the raw energy and untamed beauty of the ocean in all its glory."
     },
